@@ -1,0 +1,184 @@
+@media screen and (max-width:1190px) {
+    nav .left .menus {
+        position: fixed;
+        top: -100%;
+        left: -100%;
+        right: 0;
+        background: #2a2a2a;
+        width: 60%;
+        height: 40vh;
+        z-index: 2;
+        padding-top: 30px;
+        text-align: center;
+        padding-left: 0;
+        /*display:none;
+        */
+        border-radius: 0 0 200px 10px;
+        -webkit-border-radius: 0 0 200px 10px;
+        -moz-border-radius: 0 0 200px 10px;
+        -ms-border-radius: 0 0 200px 10px;
+        -o-border-radius: 0 0 200px 10px;
+        transition: 0.5s ease;
+        -webkit-transition: 0.5s ease;
+        -moz-transition: 0.5s ease;
+        -ms-transition: 0.5s ease;
+        -o-transition: 0.5s ease;
+    }
+    nav .left .lefted {
+        left: 0;
+        top: 0;
+    }
+    #close-icon {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        color: #FF3946;
+        font-size: 26px;
+        display: block;
+    }
+    nav .bar-icon {
+        color: #314584;
+        font-size: 26px;
+        display: inline-block;
+        margin-left: 10px;
+    }
+    nav .left ul li {
+        display: block;
+        padding: 10px 0;
+    }
+    nav .left ul li a {
+        color: #fff;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    #hero{
+        padding: 50px 0 20px 80px;
+    }
+    #service-section {
+        padding: 50px 10px 20px 80px;
+    }
+    #service-section .row .mid .web-card h4 {
+        font-size: 17px;
+    }
+    #portfolio-section {
+        padding: 50px 30px 20px 80px;
+    }
+    #about {
+        padding: 60px 40px;
+        padding-top: 25rem;
+        margin-top: -20rem;
+    }
+    #about .right h4{
+        width:100%;
+        font-size: 28px;
+    }
+    #news-section {
+        padding: 50px 30px 20px 80px;
+    }
+    #contact-section {
+        padding: 50px 30px 20px 80px;
+    }
+    #contact-section .touch{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:890px) {
+    #portfolio-section h4{
+        width:50%;
+
+    }
+}
+
+@media screen and (max-width:690px) {
+    nav {
+        padding: 10px 20px;
+        width: 100%;
+    }
+    nav .left .lefted{
+    border-radius: 0 0 100px 10px;
+    -webkit-border-radius: 0 0 100px 10px;
+    -moz-border-radius: 0 0 100px 10px;
+    -ms-border-radius: 0 0 100px 10px;
+    -o-border-radius: 0 0 100px 10px;
+    width:65%;
+    height:50vh;
+    }
+    .fixed{
+        padding: 15px 20px 10px 20px;
+    }
+    #hero{
+        padding: 50px 10px 20px 40px;
+    }
+    #hero .main-heading{
+        padding-top:50px;
+    }
+    #service-section {
+        padding: 50px 10px 20px 40px;
+    }
+    #service-section .row .left a{
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+    #service-section .row .mid .web-card{
+        margin: 20px 10px;
+    }
+    #about .right p{
+        padding-right:0;
+        text-align:justify;
+    }
+    #about .left img {
+        width: 100%;
+        float: right;
+        padding-right: 30px;
+        padding-bottom: 15px;
+    }
+    #portfolio-section{
+        padding: 50px 15px 20px 40px;
+    }
+    #portfolio-section h4{
+        width:100%;
+        text-align:left;
+
+    }
+    #portfolio-section .main-area .port-arrow-area {
+        position: absolute;
+        display: flex;
+        top:100%;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        width: 25%;
+    }
+    #news-section {
+        padding: 50px 30px 20px 40px;
+    }
+    #news-section .check-news{
+        width:100%;
+    }
+    #news-section .my-card{
+        width:98%;
+        margin: 0 auto;
+    }
+    #contact-section {
+        padding: 50px 30px 20px 40px;
+    }
+    #contact-section form input{
+        width:100%;
+    }
+    #contact-section form input[type="submit"]{
+        width:65%;
+    }
+    footer h4{
+        font-size:30px;
+    }
+    footer ul li a{
+        font-size:16px;
+    }
+    .show{
+        bottom:20px;
+        right:5px;
+    }
+}
